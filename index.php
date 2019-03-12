@@ -9,10 +9,17 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <meta name="viewport" content="width=device-width">
+        <meta charset="UTF-8">
+        <link href="Estilos.css" rel="stylesheet" type="text/css"/>
         <meta charset="UTF-8">
         <title></title>
     </head>
     <body>
+        <p class = "estilo02" >Uno</p>
+        <p style="background: yellow;font-size: 25px">Dos</p>
+        <p class = "estilo01" >Tres</p>
+        
         <?php
         // put your code here
             include "resultado.php";
